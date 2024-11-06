@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/surface"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".controller.FinalActivity">
+
+<!--    Image is from https://pixabay.com/hu/illustrations/keksz-%C3%BCnnepl%C3%A9s-buli-1245584/-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/celebration"/>
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/on_surface"
+        android:text="@string/score"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/tv_highest_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:textColor="@color/on_surface"
+        android:text="@string/highest_score"
+        android:textSize="16sp"
+        android:layout_marginBottom="45dp"/>
+
+    <Button
+        android:id="@+id/btn_play_again"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/play_again"
+        android:backgroundTint="@color/primary"
+        android:layout_marginBottom="30dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_practice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/practice"
+        android:backgroundTint="@color/primary"
+        android:layout_marginBottom="30dp"
+        android:textSize="16sp"/>
+
+    <Button
+        android:id="@+id/btn_clear_highestScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/clear"
+        android:backgroundTint="@color/secondary_container"
+        android:textColor="@color/white"
+        android:textSize="16sp" />
+
+</LinearLayout>

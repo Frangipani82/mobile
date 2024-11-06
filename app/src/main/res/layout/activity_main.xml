@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/surface"
+    android:paddingRight="16dp"
+    android:paddingLeft="16dp"
+    tools:context=".controller.MainActivity">
+
+<!--    Image is from https://pixabay.com/hu/illustrations/kv%C3%ADz-k%C3%A9rd%C3%A9s-j%C3%A1tszma-meccs-teszt-2004350/-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/quiz"
+        android:layout_marginBottom="40dp"
+        android:layout_marginTop="-30dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/select_level"
+        android:textColor="@color/on_surface"
+        android:layout_marginBottom="45dp"
+        android:textSize="24sp"/>
+
+    <RadioGroup
+        android:id="@+id/rg_levels_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginBottom="45dp">
+
+        <RadioButton
+            android:id="@+id/rb_easy"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:button="@null"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/easy"
+            android:textAllCaps="false"
+            android:textColor="@color/primary"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_medium"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/button_background"
+            android:button="@null"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/medium"
+            android:textAllCaps="false"
+            android:textColor="@color/primary"
+            android:textSize="16sp"/>
+
+        <RadioButton
+            android:id="@+id/rb_hard"
+            style="@style/Widget.AppCompat.Button"
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@drawable/button_background"
+            android:button="@null"
+            android:paddingLeft="24dp"
+            android:paddingRight="24dp"
+            android:text="@string/hard"
+            android:textAllCaps="false"
+            android:textColor="@color/primary"
+            android:textSize="16sp"/>
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btn_start"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/start_button"
+        android:backgroundTint="@color/primary"
+        android:textSize="16sp"/>
+
+</LinearLayout>

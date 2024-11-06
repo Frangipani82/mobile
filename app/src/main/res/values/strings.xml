@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Quiz Application</string>
+    <string name="start_button">Start quiz</string>
+    <string name="level">Level</string>
+    <string name="question_number">Question number</string>
+    <string name="question">Question here</string>
+    <string name="question_type">Question type</string>
+    <string name="one_choice">Select one answer</string>
+    <string name="multiple_choice">Select multiple answers</string>
+    <string name="answer_1">Answer1</string>
+    <string name="answer_2">Answer2</string>
+    <string name="answer_3">Answer3</string>
+    <string name="answer_4">Answer4</string>
+    <string name="check_answer">Check answer</string>
+    <string name="next_question">Next question</string>
+    <string name="finish">Finish</string>
+    <string name="score">Score</string>
+    <string name="highest_score">Highest score</string>
+    <string name="practice">Practice</string>
+    <string name="play_again">Play again</string>
+    <string name="clear">Clear highest score</string>
+    <string name="easy">Easy</string>
+    <string name="medium">Medium</string>
+    <string name="hard">Hard</string>
+    <string name="select_level">Select level</string>
+    <string name="practice_mode">Practice mode</string>
+</resources>
